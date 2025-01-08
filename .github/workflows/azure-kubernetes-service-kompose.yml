@@ -39,11 +39,11 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_CONTAINER_REGISTRY: "your-azure-container-registry"
-  CONTAINER_NAME: "your-container-name"
-  RESOURCE_GROUP: "your-resource-group"
-  CLUSTER_NAME: "your-cluster-name"
-  DOCKER_COMPOSE_FILE_PATH: "your-docker-compose-file-path"
+  AZURE_CONTAINER_REGISTRY: "phillipacr1"
+  CONTAINER_NAME: "flask-app"
+  RESOURCE_GROUP: "phillip-acr1"
+  CLUSTER_NAME: "phillip-aks1"
+  DOCKER_COMPOSE_FILE_PATH: "dockercompose.yaml"
 
 jobs:
   buildImage:
